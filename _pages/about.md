@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,7 +8,47 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+Hello! I'm Madhur Sudarshan, a final year Masters student conducting research in the fields of Computer Graphics and Computer Vision (a.k.a. Visual Compute). I will graduate with a Bachelors and Masters in Electrical Engineering and a minor in Computer Science (expected July 2022) from [Indian Institute of Technology Bombay](http://www.iitb.ac.in/). I am advised by [Prof. Parag Chaudhuri](https://www.cse.iitb.ac.in/~paragc/) as my guide and [Prof. Subhasis Chaudhuri](https://www.ee.iitb.ac.in/~sc/) as co-guide. I also work closely with [Prof. Sharayu Moharir](https://www.ee.iitb.ac.in/web/people/faculty/home/sharayum) and have worked with [Prof. Nikhil Karamchandani](https://sites.google.com/site/nikhilkaram/). 
+
+I am passionate about enabling Immersive Technologies and creating tools for artists. My current research focuses heavily on XR, and my career goal is to drive innovation and bring new ideas to the table. I am looking for full time PhD positions to contribute to and learn from research groups to solve such problems.
+
+I am tackling Coherent Illumination for Mixed Reality as my masters thesis and Deep Reinforcement based polcies for Edge service caching with a focus on Cloud based AR processes as additional research projects. I have also worked on Audio Processing, creating a novel framework for paired instrument transfer using Wavenet. For more information on my projects please refer to the projects tab. 
+
+<!-- I am passionate about creating tools and enabling technologies tied with human creativity, and my research focuses heavily on XR. Currently I am tackling Coherent Illumination for Mixed Reality and Edge service caching with a focus on Cloud based AR  -->
+
+Research Experience
+======
+ 
+I am currently working on enabling tools for high realism in Augmented Reality in two projects-  
+* Coherent Rendering for Augmented Reality  (Advised by [Prof. Parag Chaudhuri](https://www.cse.iitb.ac.in/~paragc/) and [Prof. Subhasis Chaudhuri](https://www.ee.iitb.ac.in/~sc/))
+
+  Synthetic objects rendered onto real environments are not influenced by lights and reflections automatically. Our eyes are perceptive to these inconsistencies, thus to render objects coherently we must infer accurate illumination information. We are interested in inference approaches that run in real time on monocular RGB cameras, that are available on most handheld devices. I began by recreating the paper titled Learned Light Probes for Mixed Reality Illumination (Mandl et. al.) that trained a CNN per pose to extract spherical harmonic representations of illumination from images an object with known geometry, textures and BRDF. I synthesized datasets for objects to test this approach virtually. I explored augmentations to and identified fundamental drawbacks with their approach. Inspired by recent research in Differentiable Rendering and Neural Rendering I proposed a method based on using rendered images as a basis, that I intend to publish after further research.     
+
+* Deep Reinforcement Learning for Service Caching on the edge (Advised by [Prof. Sharayu Moharir](https://www.ee.iitb.ac.in/web/people/faculty/home/sharayum) and [Prof. Nikhil Karamchandani](https://sites.google.com/site/nikhilkaram/))
+
+  Enabling High Quality XR apps on Head Mounted Devices provides issues with Compute and Battery Limitations. Instead of running processes locally hosting such services on edge servers and streaming to mobile devices holds many promises. There are also many research challenges in ensuring high Quality-of-Experience to users, typically seen in terms of latency and bandwidth limitations. Taking inspiration from Predictive Scheduling for VR, I completed an extensive literature survey and proposed an alternate QoE based metric to optimise the choice of running locally or on edge servers. Then to investigate performance of reinforcement learning policies against optimal solutions, I am studying the performance of deep reinforcement learning agents on long horizon pattern recognition and loss metrics on an approach titled RetroRenting by my advisors and V S Ch Lakshmi Narayana. When this research is concluded insights from this can be applied to other optimisation problems for edge cloud based services.
+
+Aside from these I also have a strong background in Audio Processing, both as an Electrical Engineer/AI Researcher and Musician/Producer. Of particular interest would be my research conducted as a course project for Advanced Machine Learning-
+
+* Wavenet for Timbre-Transfer (Team-mate: Harsh Prashant Dolhare, course instructor [Prof. Amit Sethi](https://www.ee.iitb.ac.in/~asethi/))
+
+  Musicians performing live seek to increase their sonic pallete by using many effects such as filters, distortion pedals. A more challenging problem is to make one instrument sound like another, this is "timbre transfer".  The instrument that offers the most variation in timbre would be electronic instrument like the keyboard which can emulate any sound, but these restrictive in expressivity. More expressive instruments such as wind or string based instruments conventionally need frequency information to be converted into MIDI information before they can generate varied sounds but this can lead to artifacts. Borrowing from research on modelling distortion pedals as a blackbox using Wavenet, I proposed a model for paired instrument transfer that can run in realtime on any input instrument to map to other output instruments. I generate novel datasets and study the performance of this model, leading to promising results. 
+
+
+I also spent a summer researching the application of High-Order Singular Value Decomposition to Liquid Chromatography-Mass Spectrometry data for metabolomics. My challenge was to apply Image Processing concepts to sparsely encoded data, with an end goal of processing many Gigabytes of unanalysed data. This work was done with [Prof. Pramod Wangikar](https://www.che.iitb.ac.in/wangikar/?team=pramod-wangikar) for the start-up Clarity [Biosystems](https://claritybiosystems.com/).
+
+Background
+======
+For the majority of my life IIT campus in Mumbai has been my home, with the exception of a year in Seattle Washington where I had a pleasant kindergarten in the Redmond area, and a blissful exchange Semester in Copenhagen, Denmark. I grew up surrounded by academics in IIT Bombay where my Father [Prof. S. Sudarshan](https://www.cse.iitb.ac.in/~sudarsha/) is a Professor of Computer Science. This environment inspired and led me to spend my youth representing my school at various Olympiads and Quizzes. I was also fortunate to pursue art classes and robot coding bootcamps. My first exposure to professional instruction was a summer transcribing and dubbing coding tutorials for [Spoken tutorials](https://spoken-tutorial.org/). That and a fascination with Science Fiction Literature ranging from Isaac Asimov to Douglas Adams brought me to pursue a Degree in Engineering. My background as musician ensured that I stuck close to subjects that were creative in nature, thus leading me to pursue problems related to Computer Graphics as my Masters thesis. 
+
+Extra-Curricular Pursuits
+======
+I'm a semi-professional session musician in my free time, and this forms a major motivation for pursuing research too. I began learning music at the age of 9, covering various musical instruments across my journey ranging from Keyboard, Drums and Singing, but I finally settled on the bass guitar as my primary gigging instrument. I enjoy improvisation and performing jazz fusion music, though I have been fortunate to play with and lead Progressive Rock, Jazz and Funk bands. As a bandleader I've led my group to perform infront of audiences of over 5000 opening for popular Bollywood singers. I've completed courses on Music Theory, Linguistics and Industrial Design and am particularly interested in how different forms of media reflect the political and cultural backdrop of their times. This reflects in my Research Interests too.
+Besides this I used to play Basketball Representing my University and School. More recently on a semester exchange in Denmark I was able to realise an unfulfilled passion for cooking. Besides having a stellar social life experience I was also introduced to knitting, a hobby I hope to reconnect with if I move to colder climates than Mumbai :)
+<!-- On my exchange semester at Danmarks Tekniske Universitet I was introduced to knitting, a hobby that I hope to reconnect with if I move to a colder climate than Mu -->
+
+
+<!-- This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
 A data-driven personal website
 ======
@@ -47,4 +87,4 @@ Example: editing a markdown file for a talk
 
 For more info
 ------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
